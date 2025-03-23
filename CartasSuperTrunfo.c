@@ -54,7 +54,7 @@ int main() {
     printf("Digite o nome da Cidade: \n");
     fgets(cidade2, 30, stdin);
     
-    printf("Digite a Area da Cidade: \n");
+    printf("Digite a Area da Cidade em km²: \n");
     scanf("%f", &areaKm2);
     
     printf("Digite o numero de Habitantes: \n");
@@ -113,13 +113,13 @@ int main() {
 
 
     //imprimi na tela dados da carta 1
-    printf("\n\n");
+    printf("\n");
     printf("Carta 1: \n");
     printf("Estado: %c \n", estado);
     printf("Código: %c%s \n", estado, codigoCarta);
     printf("Cidade: %s", cidade);
     printf("Area: %.2f km² \n",areaKm);
-    printf("populacao: %d \n", populacao);
+    printf("Populacao: %d \n", populacao);
     printf("PIB: %.2f Bilhões de Reais \n", pib);
     printf("Pontos Turísticos: %d \n", pontosTuristicos);
     printf("Densidade Populacional: %.2f Hab/Km²\n", densidade);
@@ -140,7 +140,7 @@ int main() {
 
     //Mostra na tela o reusltado da comparação de qual carta venceu
     printf("\n");
-    printf("Comparação de Cartas");
+    printf("Comparação de Cartas: \n");
     printf("População: Carta %d Venceu (%d)\n", vencedorPopulacao, resultPopulacao);
     printf("Area: Carta %d Venceu (%d)\n", vencedorArea, resultArea);
     printf("PIB: Carta %d Venceu (%d)\n", vencedorPib, resultPib);

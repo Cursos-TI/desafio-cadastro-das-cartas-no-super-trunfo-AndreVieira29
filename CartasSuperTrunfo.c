@@ -2,7 +2,7 @@
 
 int main() {
     char estado, estado2;
-    char codigoCarta[3],codigoCarta2[3];
+    char codigoCarta[4],codigoCarta2[4];
     char cidade[30],cidade2[30];
     int populacao,populacao2;
     float areaKm,areaKm2; 
